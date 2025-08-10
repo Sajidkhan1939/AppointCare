@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F9852E7-2C9C-44BD-8939-29D2F579457F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointCare.API", "AppointCare.API\AppointCare.API.csproj", "{E383417F-8496-4F77-9D5E-2D08A7227257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointCare.Application", "AppointCare.Application\AppointCare.Application.csproj", "{B861FE0B-381D-47C3-8B20-3D145FD76D64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointCare.Domain", "AppointCare.Domail\AppointCare.Domain.csproj", "{09216C1B-191B-48B2-82F5-39874AAE2EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointCare.Infrastructure", "AppointCare.Infrastructure\AppointCare.Infrastructure.csproj", "{5DAA634A-3AB9-4B3E-A40E-A3D371B37A30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointCare.Persistence", "AppointCare.Persistence\AppointCare.Persistence.csproj", "{17541AF4-6ED5-402F-BF6F-EC6B8F63A9B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E383417F-8496-4F77-9D5E-2D08A7227257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E383417F-8496-4F77-9D5E-2D08A7227257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E383417F-8496-4F77-9D5E-2D08A7227257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E383417F-8496-4F77-9D5E-2D08A7227257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B861FE0B-381D-47C3-8B20-3D145FD76D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B861FE0B-381D-47C3-8B20-3D145FD76D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B861FE0B-381D-47C3-8B20-3D145FD76D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B861FE0B-381D-47C3-8B20-3D145FD76D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09216C1B-191B-48B2-82F5-39874AAE2EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09216C1B-191B-48B2-82F5-39874AAE2EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09216C1B-191B-48B2-82F5-39874AAE2EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09216C1B-191B-48B2-82F5-39874AAE2EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DAA634A-3AB9-4B3E-A40E-A3D371B37A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAA634A-3AB9-4B3E-A40E-A3D371B37A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAA634A-3AB9-4B3E-A40E-A3D371B37A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAA634A-3AB9-4B3E-A40E-A3D371B37A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17541AF4-6ED5-402F-BF6F-EC6B8F63A9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17541AF4-6ED5-402F-BF6F-EC6B8F63A9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17541AF4-6ED5-402F-BF6F-EC6B8F63A9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17541AF4-6ED5-402F-BF6F-EC6B8F63A9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E383417F-8496-4F77-9D5E-2D08A7227257} = {2F9852E7-2C9C-44BD-8939-29D2F579457F}
+		{B861FE0B-381D-47C3-8B20-3D145FD76D64} = {2F9852E7-2C9C-44BD-8939-29D2F579457F}
+		{09216C1B-191B-48B2-82F5-39874AAE2EB0} = {2F9852E7-2C9C-44BD-8939-29D2F579457F}
+		{5DAA634A-3AB9-4B3E-A40E-A3D371B37A30} = {2F9852E7-2C9C-44BD-8939-29D2F579457F}
+		{17541AF4-6ED5-402F-BF6F-EC6B8F63A9B2} = {2F9852E7-2C9C-44BD-8939-29D2F579457F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82042015-C324-407D-A0F3-0B98C5C84407}
+	EndGlobalSection
+EndGlobal

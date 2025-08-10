@@ -1,0 +1,6 @@
+@AppointCare.API_HostAddress = http://localhost:5102
+
+GET {{AppointCare.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
